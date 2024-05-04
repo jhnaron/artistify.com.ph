@@ -32,3 +32,17 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore terraform locks
+*.lock.hcl
+
+# Ignore Environment variables
+.env
+
+# Ignore IDE config
+.vscode
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
