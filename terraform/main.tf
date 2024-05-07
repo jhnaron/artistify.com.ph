@@ -25,7 +25,7 @@ resource "digitalocean_ssh_key" "default" {
 
 # Create droplet
 resource "digitalocean_droplet" "web" {
-  image  = "ubuntu-20-04-x64"
+  image  = "ubuntu-22-04-x64"
   name   = "drp-web-artistify-prd-001"
   region = "sgp1"
   size   = "s-1vcpu-512mb-10gb"
